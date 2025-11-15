@@ -8,7 +8,7 @@ const newhero=[...marvel_heros,...dc_heros]
 // console.log(newhero)
 
 const another_array=[1,2,3,[4,5,6,],7,[6,7,[4,5]]]
-const anoarray=another_array.flat(Infinity)
+const anoarray=another_array.flat(2)
 console.log(anoarray);
 
 console.log(Array.isArray("hitesh"));
